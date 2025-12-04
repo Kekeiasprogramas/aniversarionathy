@@ -3,7 +3,7 @@
 // =========================
 
 // COLOQUE AQUI O LINK DO SEU GOOGLE FORMS
-const FORMS_URL = "COLE_AQUI_O_LINK_DO_SEU_GOOGLE_FORMS";
+const FORMS_URL = "https://docs.google.com/forms/d/e/1FAIpQLSddGrGsk8jhIfSVEDGdYG9kqccToXbsDCz1QM8WChF2ooX9tQ/viewform";
 
 function openForms() {
   if (!FORMS_URL || !FORMS_URL.includes("http")) {
@@ -184,4 +184,5 @@ function startCountdown() {
 }
 
 startCountdown();
+
 
