@@ -32,18 +32,21 @@ body {
     sans-serif;
   background-color: var(--rosa-fundo);
   color: var(--texto-principal);
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  margin: 0;
+  min-height: 100vh;
   padding: 12px;
   position: relative;
   overflow-x: hidden;
+  /* sem display:flex, sem justify-content, sem align-items */
 }
+
 
 .page {
   max-width: 900px;
   width: 100%;
+  margin: 0 auto;   /* centraliza no meio da tela, mas só na horizontal */
 }
+
 
 /* ================================
    FUNDO / PÉTALAS
@@ -689,16 +692,4 @@ body {
     font-size: 1.2rem;
   }
 }
-/* ================================
-   SCROLL SNAP – Centralizar automaticamente no topo
-==================================*/
-
-.page {
-  scroll-snap-type: y mandatory;
-}
-
-.card-header {
-  scroll-snap-align: start;
-}
-
 
