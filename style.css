@@ -689,4 +689,16 @@ body {
     font-size: 1.2rem;
   }
 }
+/* ================================
+   SCROLL SNAP – Centralizar automaticamente no topo
+==================================*/
+
+.page {
+  scroll-snap-type: y mandatory;
+}
+
+.card-header {
+  scroll-snap-align: start;
+}
+
 
